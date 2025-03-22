@@ -7,8 +7,8 @@ import json
 app = FastAPI()
 
 # Конфигурация API
-EXTERNAL_API_URL = "https://v6.exchangerate-api.com/v6/7cf755170d0cec5ac63d31a9/latest"
-HISTORICAL_API_URL = "https://v6.exchangerate-api.com/v6/7cf755170d0cec5ac63d31a9/history"
+EXTERNAL_API_URL = "https://v6.exchangerate-api.com/v6/*********/latest"
+HISTORICAL_API_URL = "https://v6.exchangerate-api.com/v6/*********/history"
 CACHED_RATES = {}
 CACHE_EXPIRATION = 3600  # 1 час
 CURRENCIES = ["USD", "EUR", "UAH", "PLN", "GBP"]  # Ваши 5 валют
