@@ -9,7 +9,7 @@ from datetime import datetime, timedelta
 import random
 import json
 
-TOKEN = "7926263038:AAF7pWeVCcYkayd7S67_1wEs2J4nooPKdJU"
+TOKEN = ""
 API_URL = "http://127.0.0.1:8000"
 CURRENCIES = {
     "USD": ("$", "Доллар США"),
